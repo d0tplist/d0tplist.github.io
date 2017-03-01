@@ -155,11 +155,11 @@ a:focus {
     -o-background-size: cover;
 
 
-    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 6s; /* Firefox < 16 */
-        -ms-animation: fadein 6s; /* Internet Explorer */
-         -o-animation: fadein 6s; /* Opera < 12.1 */
-            animation: fadein 6s;
+    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 10s; /* Firefox < 16 */
+        -ms-animation: fadein 10s; /* Internet Explorer */
+         -o-animation: fadein 10s; /* Opera < 12.1 */
+            animation: fadein 10s;
 }
 
 
@@ -222,13 +222,12 @@ a:focus {
     }
 }
 
-.btn-circle {
-    width: 70px;
-    height: 70px;
+
+
+
+.titulo{
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 100%!important;
     font-size: 40px;
     color: #fff;
     background: 0 0;
@@ -237,21 +236,21 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.btn-circle:hover,
-.btn-circle:focus {
+.titulo:hover,
+.titulo:focus {
     outline: 0;
     color: #fff;
     background: rgba(255,255,255,.1);
 }
 
-.btn-circle i.animated {
+.titulo i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 1s;
 }
 
-.btn-circle:hover i.animated {
+.titulo:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
@@ -300,17 +299,6 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 #map {
     width: 100%;
